@@ -15,9 +15,9 @@ import seedu.address.model.util.SampleDataUtil;
  */
 public class PersonBuilder {
 
-    public static final String DEFAULT_NAME = "Alice Pauline";
-    public static final String DEFAULT_PHONE = "85355255";
-    public static final String DEFAULT_EMAIL = "alice@gmail.com";
+    public static final String DEFAULT_NAME = "Jake Finn";
+    public static final String DEFAULT_PHONE = "83573159";
+    public static final String DEFAULT_EMAIL = "jakeyfinn@gmail.com";
 
     private Name name;
     private Phone phone;
