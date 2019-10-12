@@ -1,5 +1,11 @@
 package seedu.address.logic.quiz.commands;
 
+import static java.util.Objects.requireNonNull;
+import static seedu.address.logic.quiz.parser.CliSyntax.*;
+import static seedu.address.model.quiz.Model.PREDICATE_SHOW_ALL_PERSONS;
+
+import java.util.*;
+
 import seedu.address.commons.core.Messages;
 import seedu.address.commons.core.index.Index;
 import seedu.address.commons.util.CollectionUtil;
@@ -7,12 +13,6 @@ import seedu.address.logic.quiz.commands.exceptions.CommandException;
 import seedu.address.model.quiz.Model;
 import seedu.address.model.quiz.person.*;
 import seedu.address.model.quiz.tag.Tag;
-
-import java.util.*;
-
-import static java.util.Objects.requireNonNull;
-import static seedu.address.logic.quiz.parser.CliSyntax.*;
-import static seedu.address.model.quiz.Model.PREDICATE_SHOW_ALL_PERSONS;
 
 /**
  * Edits the details of an existing person in the address book.

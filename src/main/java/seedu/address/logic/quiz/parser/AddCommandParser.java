@@ -1,15 +1,15 @@
 package seedu.address.logic.quiz.parser;
 
-import seedu.address.logic.quiz.commands.AddCommand;
-import seedu.address.logic.quiz.parser.exceptions.ParseException;
-import seedu.address.model.quiz.person.*;
-import seedu.address.model.quiz.tag.Tag;
+import static seedu.address.commons.core.Messages.MESSAGE_INVALID_COMMAND_FORMAT;
+import static seedu.address.logic.quiz.parser.CliSyntax.*;
 
 import java.util.Set;
 import java.util.stream.Stream;
 
-import static seedu.address.commons.core.Messages.MESSAGE_INVALID_COMMAND_FORMAT;
-import static seedu.address.logic.quiz.parser.CliSyntax.*;
+import seedu.address.logic.quiz.commands.AddCommand;
+import seedu.address.logic.quiz.parser.exceptions.ParseException;
+import seedu.address.model.quiz.person.*;
+import seedu.address.model.quiz.tag.Tag;
 
 /**
  * Parses input arguments and creates a new AddCommand object

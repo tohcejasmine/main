@@ -1,11 +1,11 @@
 package seedu.address.logic.quiz.commands;
 
+import static java.util.Objects.requireNonNull;
+import static seedu.address.logic.quiz.parser.CliSyntax.*;
+
 import seedu.address.logic.quiz.commands.exceptions.CommandException;
 import seedu.address.model.quiz.Model;
 import seedu.address.model.quiz.person.Person;
-
-import static java.util.Objects.requireNonNull;
-import static seedu.address.logic.quiz.parser.CliSyntax.*;
 
 /**
  * Adds a person to the address book.

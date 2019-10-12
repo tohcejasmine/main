@@ -1,13 +1,13 @@
 package seedu.address.model.quiz.util;
 
+import java.util.Arrays;
+import java.util.Set;
+import java.util.stream.Collectors;
+
 import seedu.address.model.quiz.AddressQuizBook;
 import seedu.address.model.quiz.ReadOnlyAddressBook;
 import seedu.address.model.quiz.person.*;
 import seedu.address.model.quiz.tag.Tag;
-
-import java.util.Arrays;
-import java.util.Set;
-import java.util.stream.Collectors;
 
 /**
  * Contains utility methods for populating {@code AddressBook} with sample data.

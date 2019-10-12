@@ -1,9 +1,9 @@
 package seedu.address.logic.quiz.commands;
 
+import static java.util.Objects.requireNonNull;
+
 import seedu.address.model.quiz.AddressQuizBook;
 import seedu.address.model.quiz.Model;
-
-import static java.util.Objects.requireNonNull;
 
 /**
  * Clears the address book.
